@@ -60,7 +60,7 @@ export function tableToTS(name: string, prefix: string, table: Table): string {
      * but makes every field containing a DEFAULT value optional.
      *
      * This is especially useful when generating inserts, as you
-     * should be able to ommit these fields if you'd like
+     * should be able to omit these fields if you'd like
     */
     export interface ${tableName}WithDefaults {
     ${members(true)}
